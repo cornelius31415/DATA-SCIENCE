@@ -60,3 +60,12 @@ print("The precision of the decision tree is: ", precision)
 print("The sensitivity of the decision tree is: ", sensitivity)
 print("The F1 Score of the decision tree is: ", f1_score)
 
+"""
+                    OUTPUT
+
+The accuracy of the decision tree is:  0.9778847043582863
+The precision of the decision tree is:  0.9775527426160338
+The sensitivity of the decision tree is:  0.9820278060359444
+The F1 Score of the decision tree is:  0.9797851645098536
+
+"""
