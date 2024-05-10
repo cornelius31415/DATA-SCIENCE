@@ -12,11 +12,17 @@ Created on Wed May  8 15:45:50 2024
 
 # ----------------------------------------------------------------------------
 
+
+
+
 print("----------------------------------------------------------------------------")
 print()
 print(" -----------------       STELLAR CLASSIFICATION         ---------------------")
 print()
 print("----------------------------------------------------------------------------")
+
+
+
 
 # ---------------------------- IMPORTS ---------------------------------
 from sklearn.tree import DecisionTreeClassifier
@@ -31,6 +37,8 @@ from sklearn.preprocessing import LabelEncoder
 import numpy as np
 import scipy.special
 from NeuralNet import NeuralNetwork
+
+
 
 
 # ------------------------- DATA PREPARATION --------------------------
@@ -49,7 +57,10 @@ labels   = df['class']
 feature_train, feature_test, label_train, label_test = train_test_split(
     features,labels, test_size=0.2, random_state=42)
 
-print(label_train)
+
+
+
+
 
 # ----------------------------------------------------------------------------
 #                             DECISION TREE   
@@ -127,9 +138,9 @@ print("The F1 Score is: ", f1_score)
 
 
 
-
-
-# ------------------------     NEURAL NETWORK      --------------------------
+# ----------------------------------------------------------------------------
+#                               NEURAL NETWORK
+# ----------------------------------------------------------------------------
 
         
 
