@@ -7,7 +7,7 @@ Created on Fri May 10 12:09:36 2024
 """
 
 # takes too long...
-# Support Vector Machines are not made 
+# Support Vector Machines are not made for more than a couple 10k datasamples
 
 
 # ---------------------------- IMPORTS ---------------------------------
